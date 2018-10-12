@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+entryOpte.obj : ../../../include/seq_snc.h
+entryOpte.obj : ../testSupport.h
+entryOpte.obj : ../seqMain.c
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+entryOpte.obj : ../../../include/seqCom.h
+entryOpte.obj : ../../../include/seq_prim_types.h
+entryOpte.obj : ../../../include/seq_mask.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+entryOpte.obj : ../../../include/pvAlarm.h
+entryOpte.obj : ../../../include/seq_release.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+entryOpte.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

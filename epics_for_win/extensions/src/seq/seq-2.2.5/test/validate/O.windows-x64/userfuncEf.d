@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+userfuncEf.obj : ../../../include/seq_snc.h
+userfuncEf.obj : ../testSupport.h
+userfuncEf.obj : ../seqMain.c
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+userfuncEf.obj : ../../../include/seqCom.h
+userfuncEf.obj : ../../../include/seq_prim_types.h
+userfuncEf.obj : ../../../include/seq_mask.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+userfuncEf.obj : ../../../include/pvAlarm.h
+userfuncEf.obj : ../../../include/seq_release.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+userfuncEf.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

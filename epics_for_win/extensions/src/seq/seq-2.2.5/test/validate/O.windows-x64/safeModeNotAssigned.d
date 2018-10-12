@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+safeModeNotAssigned.obj : ../../../include/seq_snc.h
+safeModeNotAssigned.obj : ../testSupport.h
+safeModeNotAssigned.obj : ../seqMain.c
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+safeModeNotAssigned.obj : ../../../include/seqCom.h
+safeModeNotAssigned.obj : ../../../include/seq_prim_types.h
+safeModeNotAssigned.obj : ../../../include/seq_mask.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+safeModeNotAssigned.obj : ../../../include/pvAlarm.h
+safeModeNotAssigned.obj : ../../../include/seq_release.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+safeModeNotAssigned.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

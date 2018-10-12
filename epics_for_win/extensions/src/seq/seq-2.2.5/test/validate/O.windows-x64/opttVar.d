@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+opttVar.obj : ../../../include/seq_snc.h
+opttVar.obj : ../testSupport.h
+opttVar.obj : ../seqMain.c
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+opttVar.obj : ../../../include/seqCom.h
+opttVar.obj : ../../../include/seq_prim_types.h
+opttVar.obj : ../../../include/seq_mask.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+opttVar.obj : ../../../include/pvAlarm.h
+opttVar.obj : ../../../include/seq_release.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+opttVar.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

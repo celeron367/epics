@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+safeMonitor.obj : ../../../include/seq_snc.h
+safeMonitor.obj : ../testSupport.h
+safeMonitor.obj : ../seqMain.c
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+safeMonitor.obj : ../../../include/seqCom.h
+safeMonitor.obj : ../../../include/seq_prim_types.h
+safeMonitor.obj : ../../../include/seq_mask.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+safeMonitor.obj : ../../../include/pvAlarm.h
+safeMonitor.obj : ../../../include/seq_release.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+safeMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

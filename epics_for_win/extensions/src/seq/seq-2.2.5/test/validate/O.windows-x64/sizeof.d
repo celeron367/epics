@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+sizeof.obj : ../../../include/seq_snc.h
+sizeof.obj : ../testSupport.h
+sizeof.obj : ../seqMain.c
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+sizeof.obj : ../../../include/seqCom.h
+sizeof.obj : ../../../include/seq_prim_types.h
+sizeof.obj : ../../../include/seq_mask.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+sizeof.obj : ../../../include/pvAlarm.h
+sizeof.obj : ../../../include/seq_release.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+sizeof.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

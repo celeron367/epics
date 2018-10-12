@@ -1,0 +1,1 @@
+.\bin\windows-x64\streamApp.exe src.txt

@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+monitorEvflag.obj : ../../../include/seq_snc.h
+monitorEvflag.obj : ../testSupport.h
+monitorEvflag.obj : ../seqMain.c
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+monitorEvflag.obj : ../../../include/seqCom.h
+monitorEvflag.obj : ../../../include/seq_prim_types.h
+monitorEvflag.obj : ../../../include/seq_mask.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+monitorEvflag.obj : ../../../include/pvAlarm.h
+monitorEvflag.obj : ../../../include/seq_release.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+monitorEvflag.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

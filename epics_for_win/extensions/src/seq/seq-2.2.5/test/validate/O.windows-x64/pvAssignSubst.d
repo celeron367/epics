@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+pvAssignSubst.obj : ../../../include/seq_snc.h
+pvAssignSubst.obj : ../testSupport.h
+pvAssignSubst.obj : ../seqMain.c
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+pvAssignSubst.obj : ../../../include/seqCom.h
+pvAssignSubst.obj : ../../../include/seq_prim_types.h
+pvAssignSubst.obj : ../../../include/seq_mask.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+pvAssignSubst.obj : ../../../include/pvAlarm.h
+pvAssignSubst.obj : ../../../include/seq_release.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+pvAssignSubst.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

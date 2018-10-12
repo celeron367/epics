@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+commaOperator.obj : ../../../include/seq_snc.h
+commaOperator.obj : ../testSupport.h
+commaOperator.obj : ../seqMain.c
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+commaOperator.obj : ../../../include/seqCom.h
+commaOperator.obj : ../../../include/seq_prim_types.h
+commaOperator.obj : ../../../include/seq_mask.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+commaOperator.obj : ../../../include/pvAlarm.h
+commaOperator.obj : ../../../include/seq_release.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+commaOperator.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

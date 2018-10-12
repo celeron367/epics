@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+array.obj : ../../../include/seq_snc.h
+array.obj : ../testSupport.h
+array.obj : ../seqMain.c
+array.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+array.obj : ../../../include/seqCom.h
+array.obj : ../../../include/seq_prim_types.h
+array.obj : ../../../include/seq_mask.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+array.obj : ../../../include/pvAlarm.h
+array.obj : ../../../include/seq_release.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+array.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

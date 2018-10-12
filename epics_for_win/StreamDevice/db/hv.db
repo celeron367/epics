@@ -1,0 +1,43 @@
+record(ao,"HV:$(P):SET")
+{
+       field(DESC,"Set high voltage of tar")                                                             
+       field(FLNK,"HV:$(P):SET:CALC")
+       #field(FTVL,"SHORT")
+       field(DRVH,"$(V_LIMIT)")
+       field(DRVL, "0")
+       field(SCAN,"Passive")                                                                    
+}  
+
+record(ao,"HV:$(P):SWITCH")
+{
+       field(DESC,"on/off  high voltage of tar")                                                             
+       field(SCAN,"Passive")    
+       field(FLNK,"HV:$(P):SET")                                                                
+}  
+
+record(ao,"HV:$(P):POL")
+{
+       field(DESC,"Pol of high voltage of tar")                                                             
+       field(SCAN,"Passive")                                                                    
+}  
+
+record(calcout,"HV:$(P):SET:CALC")
+{
+       field(DESC,"Set high voltage of tar")                                                             
+       field(INPA,"HV:$(P):SET")
+       field(CALC,"A/$(V_LIMIT)*65535")
+       field(OUT,"HV:$(P):MBO PP")                                                       
+}  
+
+record(mbbo,"HV:$(P):MBO")
+{
+       field (DESC,"16 bits of tar voltage")  
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto Set_$(P)_Voltage MAIN_CONTROL")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+#----------------------------------------------------------------------------
+
+
+
+

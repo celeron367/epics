@@ -1,0 +1,25 @@
+epicsEnvSet ("STREAM_PROTOCOL_PATH", "./db")
+
+dbLoadDatabase ".\dbd\streamApp.dbd"
+streamApp_registerRecordDeviceDriver
+
+drvAsynSerialPortConfigure "MAIN_CONTROL","COM5"
+#asynOctetSetInputEos "MAIN_CONTROL",0,"\r\n"
+#asynOctetSetOutputEos "MAIN_CONTROL",0,"\r\n"
+asynSetOption ("MAIN_CONTROL",0,"baud","115200")
+asynSetOption ("MAIN_CONTROL",0,"bits","8")
+asynSetOption ("MAIN_CONTROL",0,"parity","none")
+asynSetOption ("MAIN_CONTROL",0,"stop","1")
+
+dbLoadRecords ".\db\hv.db", "P=TAR,V_LIMIT=20000"
+dbLoadRecords ".\db\hv.db", "P=PUL,V_LIMIT=2000"
+dbLoadRecords ".\db\hv.db", "P=LEN,V_LIMIT=10000"
+dbLoadRecords ".\db\hv.db", "P=MCP,V_LIMIT=2000"
+
+dbLoadRecords ".\db\gau.db"
+dbLoadRecords ".\db\PulseAndDelay.db"
+dbLoadRecords ".\db\ValvesAndPowersupply.db"
+dbLoadRecords ".\db\motor.db"
+dbLoadRecords ".\db\rbvs.db"
+
+iocInit

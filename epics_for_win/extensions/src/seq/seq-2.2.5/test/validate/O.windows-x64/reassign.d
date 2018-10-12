@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+reassign.obj : ../../../include/seq_snc.h
+reassign.obj : ../testSupport.h
+reassign.obj : ../seqMain.c
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+reassign.obj : ../../../include/seqCom.h
+reassign.obj : ../../../include/seq_prim_types.h
+reassign.obj : ../../../include/seq_mask.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+reassign.obj : ../../../include/pvAlarm.h
+reassign.obj : ../../../include/seq_release.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+reassign.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

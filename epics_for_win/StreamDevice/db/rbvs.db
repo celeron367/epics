@@ -1,0 +1,98 @@
+record(ai,"TOF:STATUS")
+{
+       field (DTYP, "stream")
+       field (INP, "@smms.proto get_status MAIN_CONTROL")                                                    
+       field (SCAN, ".5 second")                                                                    
+} 
+
+record(ai,"STATUS:RBV")
+{      
+       field (DTYP, "stream")
+       #field(FTVL,"SHORT")
+       field (INP, "@smms.proto read_status MAIN_CONTROL")     
+       field (SCAN, "I/O Intr")
+}
+
+
+#------------------------HV--------------------------
+record(ai,"HV:TAR:V:MBI")
+{          
+       #field (DTYP,"Soft Channel")                  
+} 
+
+record(ai,"HV:TAR:I:MBI")
+{            
+       #field (DTYP,"Soft Channel")                
+} 
+
+record(ai,"HV:PUL:V:MBI")
+{       
+       #field (DTYP,"Soft Channel")                     
+}
+
+record(ai,"HV:PUL:I:MBI")
+{      
+       #field (DTYP,"Soft Channel")                    
+}
+
+record(ai,"HV:LEN:V:MBI")
+{
+       #field (DTYP,"Soft Channel")                            
+}
+
+record(ai,"HV:LEN:I:MBI")
+{
+       #field (DTYP,"Soft Channel")                            
+}
+
+record(ai,"HV:MCP:V:MBI")
+{      
+       #field (DTYP,"Soft Channel")                            
+}
+
+record(ai,"HV:MCP:I:MBI")
+{ 
+       #field (DTYP,"Soft Channel")                           
+}
+#----------------MOTOR------------------------------------------
+record(ai,"MOTOR:X:MBI")
+{
+       #field (DTYP,"Soft Channel")                            
+}
+record(ai,"MOTOR:Y:MBI")
+{
+       #field (DTYP,"Soft Channel")                            
+}
+#-----------------Gauge-----------------------------------------
+record(ai,"GAU:1:MBI")
+{
+       #field (DTYP,"Soft Channel")                            
+}
+record(ai,"GAU:2:MBI")
+{
+       #field (DTYP,"Soft Channel")                            
+}
+#-----------------------Temperature-----------------------------
+record(ai,"MOTOR:TEM1:MBI")
+{
+       #field (DTYP,"Soft Channel")                            
+}
+record(ai,"MOTOR:TEM2:MBI")
+{
+       #field (DTYP,"Soft Channel")                            
+}
+record(ai,"PS:TEM:MBI")
+{
+       #field (DTYP,"Soft Channel")                            
+}
+record(ai,"TOF:TEM:MBI")
+{
+       #field (DTYP,"Soft Channel")                            
+}
+#-----------------------------Limit switch----------------------------
+record(ai,"SW:LIM:MBI")
+{
+       #field (DTYP,"Soft Channel")                            
+}
+
+

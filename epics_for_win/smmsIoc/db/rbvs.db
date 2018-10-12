@@ -1,0 +1,148 @@
+record(ai,"TOF:STATUS")
+{
+       field (DTYP, "stream")
+       field (INP, "@smms.proto get_status MAIN_CONTROL")                                                    
+       field (SCAN, ".5 second")                                                                    
+} 
+
+
+
+#------------------------HV--------------------------
+record(ai,"HV:TAR:V:MBI")
+{          
+       field (DTYP,"Soft Channel")    
+       field (FLNK,"HV:TAR:V:RBV")           
+} 
+
+record(ai,"HV:TAR:I:MBI")
+{            
+       field (DTYP,"Soft Channel")    
+        field (FLNK,"HV:TAR:I:RBV")              
+} 
+
+record(ai,"HV:PUL:V:MBI")
+{       
+       field (DTYP,"Soft Channel")    
+       field (FLNK,"HV:PUL:V:RBV")                   
+}
+
+record(ai,"HV:PUL:I:MBI")
+{      
+       field (DTYP,"Soft Channel")   
+       field (FLNK,"HV:PUL:I:RBV")                 
+}
+
+record(ai,"HV:LEN:V:MBI")
+{
+       field (DTYP,"Soft Channel")  
+       field (FLNK,"HV:LEN:V:RBV")                          
+}
+
+record(ai,"HV:LEN:I:MBI")
+{
+       field (DTYP,"Soft Channel")     
+       field (FLNK,"HV:LEN:I:RBV")                         
+}
+
+record(ai,"HV:MCP:V:MBI")
+{      
+       field (DTYP,"Soft Channel")   
+       field (FLNK,"HV:MCP:V:RBV")                          
+}
+
+record(ai,"HV:MCP:I:MBI")
+{ 
+       field (DTYP,"Soft Channel")    
+       field (FLNK,"HV:MCP:I:RBV")                          
+}
+#----------------MOTOR------------------------------------------
+record(ai,"MOTOR:X:MBI")
+{
+       field (DTYP,"Soft Channel")  
+       field (FLNK,"MOTOR:X:RBV PP")                          
+}
+
+record(calc,"MOTOR:X:RBV")
+{
+       field(DESC,"calc x positon ")                                                             
+       field(INPA,"MOTOR:X:MBI")
+       field(CALC,"A/200")      
+}  
+
+record(ai,"MOTOR:Y:MBI")
+{
+       field (DTYP,"Soft Channel")
+       field (FLNK,"MOTOR:Y:RBV PP")                      
+}
+
+record(calc,"MOTOR:Y:RBV")
+{
+       field(DESC,"calc y positon ")                                                             
+       field(INPA,"MOTOR:Y:MBI")
+       field(CALC,"A/200")      
+}  
+
+#-----------------Gauge-----------------------------------------
+record(ai,"GAU:1:MBI")
+{
+       field (DTYP,"Soft Channel")      
+       field (FLNK,"GAU:2:RBV")                   
+}
+
+record(calc,"GAU:2:RBV")
+{
+       field(DESC,"")                                                             
+       field(INPA,"GAU:1:MBI")
+       field(CALC,"10^((A/65535*10-3.572)/1.286)")      
+}  
+
+record(ai,"GAU:2:MBI")
+{
+       field (DTYP,"Soft Channel") 
+       field (FLNK,"GAU:1:RBV")                            
+}
+
+record(calc,"GAU:1:RBV")
+{
+       field(DESC,"")                                                             
+       field(INPA,"GAU:2:MBI")
+       field(CALC,"10^(((A+1500)/65535*10-3.572)/1.286)")      
+}  
+
+#-----------------------Temperature-----------------------------
+record(ai,"MOTOR:TEM1:MBI")
+{
+       field (DTYP,"Soft Channel")                            
+}
+record(ai,"MOTOR:TEM2:MBI")
+{
+       field (DTYP,"Soft Channel")                            
+}
+record(ai,"PS:TEM:MBI")
+{
+       field (DTYP,"Soft Channel")                            
+}
+record(ai,"TOF:TEM:MBI")
+{
+       field (DTYP,"Soft Channel")                            
+}
+#-----------------------------Limit switch----------------------------
+record(ai,"SW:LIM:MBI")
+{
+       field (DTYP,"Soft Channel")  
+       field (FLNK,"SW:LIM:BITS PP")
+}
+
+record(mbbiDirect,"SW:LIM:BITS")
+{
+       field (DTYP,"Soft Channel") 
+       field (INP,"SW:LIM:MBI")
+}
+#-----------------------------------------------------------------------
+record(ai,"LNK:TIMEOUT")
+{
+       field (DTYP,"Soft Channel")  
+}
+
+
+

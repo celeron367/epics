@@ -1,0 +1,112 @@
+#-------------------------------X--------------------------
+record(ao,"MOTOR:SET:X")
+{                                                         
+       field(FLNK,"MOTOR:SET:X:CALC")
+       #field(FTVL,"SHORT")
+       field(SCAN,"Passive")                                                                    
+}  
+
+record(calcout,"MOTOR:SET:X:CALC")
+{
+                                                           
+       field(INPA,"MOTOR:SET:X")
+       field(CALC,"A/163.84*65535")
+       field(OUT,"MOTOR:SET:X:MBO PP")                                                       
+}  
+
+record(mbbo,"MOTOR:SET:X:MBO")
+{
+
+       field (DTYP, "stream")
+       #field (OUT,  "@smms.proto Set_$(P)_Voltage MAIN_CONTROL")                                                    
+       #field (SCAN, "Passive")                                                                    
+} 
+
+#------------------Y--------------------------------
+record(ao,"MOTOR:SET:Y")
+{                                                         
+       field(FLNK,"MOTOR:SET:Y:CALC")
+       #field(FTVL,"SHORT")
+       field(SCAN,"Passive")                                                                    
+}  
+
+record(calcout,"MOTOR:SET:Y:CALC")
+{
+                                                                
+       field(INPA,"MOTOR:SET:Y")
+       field(CALC,"A/163.84*65535")
+       field(OUT,"MOTOR:SET:Y:MBO PP")                                                       
+}  
+
+record(mbbo,"MOTOR:SET:Y:MBO")
+{
+  
+       field (DTYP, "stream")
+       #field (OUT,  "@smms.proto Set_$(P)_Voltage MAIN_CONTROL")                                                    
+       #field (SCAN, "Passive")                                                                    
+} 
+
+#-----------------------------Start----------------------------------
+
+record(mbbo,"MOTOR:MOVE")
+{
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto motor_move MAIN_CONTROL")                                                    
+       #field (SCAN, "Passive")                                                                    
+} 
+
+record(mbbo,"MOTOR:STOP")
+{
+  
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto motor_stop MAIN_CONTROL")                                                    
+       #field (SCAN, "Passive")                                                                    
+} 
+
+record(mbbo,"MOTOR:MOVE:PX")
+{
+
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto motor_move_x_p MAIN_CONTROL")                                                    
+       #field (SCAN, "Passive")                                                                    
+} 
+record(mbbo,"MOTOR:MOVE:NX")
+{
+  
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto motor_move_x_n MAIN_CONTROL")                                                    
+       #field (SCAN, "Passive")                                                                    
+} 
+
+record(mbbo,"MOTOR:MOVE:PY")
+{
+  
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto motor_move_y_p MAIN_CONTROL")                                                    
+       #field (SCAN, "Passive")                                                                    
+} 
+record(mbbo,"MOTOR:MOVE:NY")
+{
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto motor_move_y_n MAIN_CONTROL")                                                    
+       #field (SCAN, "Passive")                                                                    
+} 
+
+record(mbbo,"MOTOR:STOP:FORCE")
+{
+ 
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto motor_force_stop MAIN_CONTROL")                                                    
+       #field (SCAN, "Passive")                                                                    
+} 
+
+record(mbbo,"MOTOR:CAL")
+{
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto motor_cal MAIN_CONTROL")                                                    
+       #field (SCAN, "Passive")                                                                    
+} 
+
+
+
+

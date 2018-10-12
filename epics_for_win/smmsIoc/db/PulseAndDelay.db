@@ -1,0 +1,27 @@
+record(ao,"PUL:DELAY:SET")
+{                                                
+       field(FLNK,"PUL:DELAY:SET:CALC")
+       #field(FTVL,"SHORT")
+       field(SCAN,"Passive")                                                                    
+}  
+
+record(calcout,"PUL:DELAY:SET:CALC")
+{                                                     
+       field(INPA,"PUL:DELAY:SET")
+       field(CALC,"A/1275*255")
+       field(OUT,"PUL:DELAY:MBO PP")                                                       
+}  
+
+record(mbbo,"PUL:DELAY:MBO")
+{
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto Pul_Delay MAIN_CONTROL")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+
+record(mbbo,"PUL:DELAY:SWITCH")
+{
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto Pul_Switch MAIN_CONTROL")                                                    
+       field (SCAN, "Passive")                                                                    
+} 

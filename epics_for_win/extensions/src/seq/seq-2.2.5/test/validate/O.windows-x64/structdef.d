@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+structdef.obj : ../../../include/seq_snc.h
+structdef.obj : ../testSupport.h
+structdef.obj : ../seqMain.c
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+structdef.obj : ../../../include/seqCom.h
+structdef.obj : ../../../include/seq_prim_types.h
+structdef.obj : ../../../include/seq_mask.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+structdef.obj : ../../../include/pvAlarm.h
+structdef.obj : ../../../include/seq_release.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+structdef.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

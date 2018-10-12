@@ -1,0 +1,6 @@
+epicsEnvSet("IOC","iocsmmsIoc")
+epicsEnvSet("TOP","E:/epics_for_win/smmsIoc")
+epicsEnvSet("SNCSEQ","E:\\epics_for_win\\extensions\\src\\seq\\seq-2.2.5")
+epicsEnvSet("ASYN","E:\\epics_for_win\\asyn4-33\\asyn4-33")
+epicsEnvSet("STREAM","E:\\epics_for_win\\StreamDevice")
+epicsEnvSet("EPICS_BASE","E:/epics_for_win/base/base-3.15.5")

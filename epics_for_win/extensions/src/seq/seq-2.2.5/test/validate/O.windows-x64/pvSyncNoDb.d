@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+pvSyncNoDb.obj : ../../../include/seq_snc.h
+pvSyncNoDb.obj : ../testSupport.h
+pvSyncNoDb.obj : ../seqMain.c
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+pvSyncNoDb.obj : ../../../include/seqCom.h
+pvSyncNoDb.obj : ../../../include/seq_prim_types.h
+pvSyncNoDb.obj : ../../../include/seq_mask.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+pvSyncNoDb.obj : ../../../include/pvAlarm.h
+pvSyncNoDb.obj : ../../../include/seq_release.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+pvSyncNoDb.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

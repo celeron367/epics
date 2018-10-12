@@ -1,0 +1,1 @@
+gddErrorCodes.obj: ../gddErrorCodes.cc

@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+pvPutAndMonitor.obj : ../../../include/seq_snc.h
+pvPutAndMonitor.obj : ../testSupport.h
+pvPutAndMonitor.obj : ../seqMain.c
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+pvPutAndMonitor.obj : ../../../include/seqCom.h
+pvPutAndMonitor.obj : ../../../include/seq_prim_types.h
+pvPutAndMonitor.obj : ../../../include/seq_mask.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+pvPutAndMonitor.obj : ../../../include/pvAlarm.h
+pvPutAndMonitor.obj : ../../../include/seq_release.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+pvPutAndMonitor.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

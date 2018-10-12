@@ -1,0 +1,102 @@
+record(ao,"LASER:ON")
+{
+       field (DESC,"start laser hv")  
+       field (DTYP, "stream")
+       field (OUT,  "@laser.proto laser_on LASER")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+
+record(ao,"LASER:REP")
+{
+       field (DESC,"start laser output")  
+       field (DTYP, "stream")
+       field (OUT,  "@laser.proto laser_rep LASER")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+
+record(ao,"LASER:SET:FREQ")
+{
+       field (DESC,"")  
+       field (DTYP, "stream")
+       field (OUT,  "@laser.proto set_freq LASER")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+
+record(ao,"LASER:SET:HV")
+{
+       field (DESC,"")  
+       field (DTYP, "stream")
+       field (OUT,  "@laser.proto set_hv LASER")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+
+record(ao,"LASER:SET:TRANS")
+{
+       field (DESC,"")  
+       field (DTYP, "stream")
+       field (OUT,  "@laser.proto set_trans LASER")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+
+record(ao,"LASER:STOP")
+{
+       field (DESC,"")  
+       field (DTYP, "stream")
+       field (OUT,  "@laser.proto stop_laser LASER")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+
+record(ao,"LASER:OFF")
+{
+       field (DESC,"")  
+       field (DTYP, "stream")
+       field (OUT,  "@laser.proto laser_off LASER")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+
+record(stringin,"LOOP:READ")
+{
+       field (DESC,"")  
+       field (DTYP, "stream")
+       field (INP,  "@laser.proto loopback LASER")                                                    
+       field (SCAN, "I/O Intr")                                                                    
+} 
+
+record(ai,"LASER:ENERGY:RAW")
+{
+       field (DESC,"")  
+       field (DTYP, "stream")
+       field (INP,  "@laser.proto read_energy LASER")
+       field (FLNK,"LASER:ENERGY:RBV")                                              
+       field (SCAN, "1 second")                                                                    
+} 
+
+record(calc,"LASER:ENERGY:RBV")
+{
+       field (DESC,"")  
+       field (INPA, "LASER:ENERGY:RAW")    
+       field (INPB, "LASER:SET:TRANS NPP")
+       field (CALC,"A/64000*250*B/100")                                                                                                                     
+} 
+
+#-------------------------------------------------
+record(ai,"LASER:P:MBI")
+{
+      field (DTYP, "stream")
+      field (INP,  "@laser.proto read_p LASER") 
+      field (FLNK,"LASER:P:BITS")
+      field (SCAN, "1 second")  
+}
+
+record(mbbiDirect,"LASER:P:BITS")
+{
+       field (DTYP,"Soft Channel") 
+       field (INP,"LASER:P:MBI")
+}
+
+
+
+
+
+
+

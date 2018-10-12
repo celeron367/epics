@@ -1,0 +1,21 @@
+record(ai,"HV:SWITCH")
+{
+       field (DTYP,"Soft Channel") 
+       field(DESC,"on/off  high voltage")                                                                                                                               
+}  
+
+record(ai,"HV:ON")
+{
+       field (DTYP,"Soft Channel") 
+       field(DESC,"on/off  high voltage")                                                                                                                               
+}  
+
+record(ai,"HV:OFF")
+{
+       field (DTYP,"Soft Channel") 
+       field(DESC,"on/off  high voltage")                                                                                                                               
+}  
+
+
+
+

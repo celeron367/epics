@@ -1,0 +1,49 @@
+record(mbbo,"VALVE:FORWARD:SWITCH")
+{
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto Value_Forward MAIN_CONTROL")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+
+record(mbbo,"VALVE:TAR:SWITCH")
+{
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto Value_Tar MAIN_CONTROL")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+
+record(mbbo,"VALVE:PRE:SWITCH")
+{
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto Value_Pre MAIN_CONTROL")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+
+record(mbbo,"VALVE:AMP:SWITCH")
+{
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto Value_Amp MAIN_CONTROL")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+
+record(mbbo,"PS:PUMP")
+{
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto PS_Pump MAIN_CONTROL")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+
+record(mbbo,"PS:HV")
+{
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto PS_HV MAIN_CONTROL")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+
+record(mbbo,"PS:BAK")
+{
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto PS_Backup MAIN_CONTROL")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+

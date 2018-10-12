@@ -1,0 +1,63 @@
+record(ao,"PUMP:OPEN")
+{
+       field (DESC,"Open Pump")  
+       field (DTYP, "stream")
+       field (OUT,  "@pump.proto Pump_Open PUMP")                                                    
+       field (SCAN,"Passive")  
+}
+
+record(ao,"PUMP:CLOSE")
+{
+       field (DESC,"Stop Pump")  
+       field (DTYP, "stream")
+       field (OUT,  "@pump.proto Pump_Stop PUMP")                                                    
+       field (SCAN,"Passive")  
+}
+
+record(ai,"PUMP:RAW:VOL")
+{
+       field (DESC,"Raw value of voltage")  
+       field (SCAN,"Passive")  
+}
+
+record(ai,"PUMP:RAW:AMP")
+{
+       field (DESC,"Raw value of amp")  
+       field (SCAN,"Passive")  
+}
+
+record(ai,"PUMP:RAW:KW")
+{
+       field (DESC,"Raw value of kw")  
+       field (SCAN,"Passive")  
+}
+
+record(ao,"PUMP:READ")
+{
+       field (DESC,"Stop Pump")  
+       field (DTYP, "stream")
+       field (OUT,  "@pump.proto Pump_P PUMP")                                                    
+       field (SCAN,"Passive")  
+}
+
+record(ai,"PUMP:TEM")
+{
+       field (DESC,"read pump temperature")  
+       field (DTYP, "stream")
+       field (OUT,  "@pump.proto Pump_Temp PUMP")                                                    
+       field (SCAN,"Passive")  
+}
+
+record(ai,"PUMP:SPEED")
+{
+       field (DESC,"read pump speed")  
+       field (DTYP, "stream")
+       field (OUT,  "@pump.proto Pump_Speed PUMP")                                                    
+       field (SCAN,"Passive")  
+}
+
+
+
+
+
+

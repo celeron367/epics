@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+bittypes.obj : ../../../include/seq_snc.h
+bittypes.obj : ../testSupport.h
+bittypes.obj : ../seqMain.c
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+bittypes.obj : ../../../include/seqCom.h
+bittypes.obj : ../../../include/seq_prim_types.h
+bittypes.obj : ../../../include/seq_mask.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+bittypes.obj : ../../../include/pvAlarm.h
+bittypes.obj : ../../../include/seq_release.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+bittypes.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

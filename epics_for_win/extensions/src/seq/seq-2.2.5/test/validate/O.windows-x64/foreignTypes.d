@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+foreignTypes.obj : ../../../include/seq_snc.h
+foreignTypes.obj : ../testSupport.h
+foreignTypes.obj : ../seqMain.c
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+foreignTypes.obj : ../../../include/seqCom.h
+foreignTypes.obj : ../../../include/seq_prim_types.h
+foreignTypes.obj : ../../../include/seq_mask.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+foreignTypes.obj : ../../../include/pvAlarm.h
+foreignTypes.obj : ../../../include/seq_release.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+foreignTypes.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

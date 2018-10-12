@@ -1,0 +1,39 @@
+Terminator = "\x0d";
+#ReadTimeout = 200
+#ReplyTimeout = 200
+#PollPeriod= 200
+#MaxInput = 0
+
+#-------------------------------------------High voltage--------------------------------------
+
+pump_open{
+      out "!C852 1";   
+}
+
+pump_close{
+      out "!C852 0";   
+}
+
+pump_para{
+      out "?V860";   
+      in   "=V860 %(PUMP:VOLTS)u;%(PUMP:AMPS)u;%(PUMP:KW)u"
+}
+
+pump_tem{
+      out "?V859";
+      in    "=V859 %(PUMP:TEM)u;%(PUMP:CTL:TEM)u";
+}
+
+pump_speed{
+      out "?V852";
+      in    "=V852 %(PUMP:SPEED)u;hhhhhhhh";
+}
+
+
+loopback{
+      in  "%s";
+}
+
+
+
+

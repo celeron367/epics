@@ -1,0 +1,15 @@
+record(mbbo,"GAU:1:SWITCH")
+{
+       field (DESC,"16 bits of tar voltage")  
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto GAU_LO_OPEN MAIN_CONTROL")                                                    
+       field (SCAN,"Passive")  
+}
+
+record(mbbo,"GAU:2:SWITCH")
+{
+       field (DESC,"16 bits of tar voltage")  
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto GAU_HI_OPEN MAIN_CONTROL")                                                    
+       field (SCAN,"Passive") 
+}

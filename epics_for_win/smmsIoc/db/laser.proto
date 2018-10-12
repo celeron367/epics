@@ -1,0 +1,54 @@
+Terminator = "\x0d";
+#ReadTimeout = 200
+#ReplyTimeout = 200
+#PollPeriod= 200
+#MaxInput = 0
+
+#-------------------------------------------High voltage--------------------------------------
+
+laser_on{
+      out "#!@gEB";   
+}
+
+laser_rep{
+      out "#!@hEC";
+}
+
+
+set_freq{
+      out "#!@m%02X%0<sum>";
+}
+
+set_hv{
+      out "#!@n%X%0<sum>";
+}
+
+set_trans{
+      out "#!@O4%02X%0<sum>";
+}
+
+stop_laser{
+      out "#!@iED";
+}
+
+laser_off{
+      out "#!@XDC";
+}
+
+loopback{
+      in  "%s";
+}
+
+read_energy{
+      out "#!@UT2D";
+      in  "<@!UT%*02X%*02X%*02X%*02X%*02X%*02X%*02X%*02X%*02X%04X%*02X";
+}
+
+read_p{
+      out "#!@WDB";
+      in  "<@!W%04X";
+}
+
+
+
+

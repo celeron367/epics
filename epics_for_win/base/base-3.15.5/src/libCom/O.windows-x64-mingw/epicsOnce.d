@@ -1,0 +1,13 @@
+epicsOnce.obj: ../../../src/libCom/cxxTemplates/epicsOnce.cpp \
+ ../../../src/libCom/osi/epicsMutex.h \
+ ../../../src/libCom/osi/epicsAssert.h \
+ ../../../src/libCom/misc/shareLib.h \
+ ../../../src/libCom/osi/compilerDependencies.h \
+ ../../../src/libCom/osi/compiler/gcc/compilerSpecific.h \
+ ../../../src/libCom/osi/os/WIN32/osdMutex.h \
+ ../../../src/libCom/cxxTemplates/epicsSingleton.h \
+ ../../../src/libCom/osi/epicsAssert.h \
+ ../../../src/libCom/cxxTemplates/epicsGuard.h \
+ ../../../src/libCom/cxxTemplates/epicsOnce.h \
+ ../../../src/libCom/cxxTemplates/tsFreeList.h \
+ ../../../src/libCom/osi/compilerDependencies.h

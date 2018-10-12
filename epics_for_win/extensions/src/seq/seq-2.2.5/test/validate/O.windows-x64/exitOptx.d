@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+exitOptx.obj : ../../../include/seq_snc.h
+exitOptx.obj : ../testSupport.h
+exitOptx.obj : ../seqMain.c
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+exitOptx.obj : ../../../include/seqCom.h
+exitOptx.obj : ../../../include/seq_prim_types.h
+exitOptx.obj : ../../../include/seq_mask.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+exitOptx.obj : ../../../include/pvAlarm.h
+exitOptx.obj : ../../../include/seq_release.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+exitOptx.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

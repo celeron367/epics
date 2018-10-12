@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+indirectCall.obj : ../../../include/seq_snc.h
+indirectCall.obj : ../testSupport.h
+indirectCall.obj : ../seqMain.c
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+indirectCall.obj : ../../../include/seqCom.h
+indirectCall.obj : ../../../include/seq_prim_types.h
+indirectCall.obj : ../../../include/seq_mask.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+indirectCall.obj : ../../../include/pvAlarm.h
+indirectCall.obj : ../../../include/seq_release.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+indirectCall.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

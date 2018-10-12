@@ -1,0 +1,10 @@
+recordtype(x) {
+    field(NAME, DBF_STRING) {
+        special(SPC_NOMOD)
+        size(61)
+        prompt("Record Name")
+    }
+    field(VAL, DBF_LONG) {
+        prompt("Value")
+    }
+}

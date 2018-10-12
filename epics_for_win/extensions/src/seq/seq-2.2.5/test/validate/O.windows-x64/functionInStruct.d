@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+functionInStruct.obj : ../../../include/seq_snc.h
+functionInStruct.obj : ../testSupport.h
+functionInStruct.obj : ../seqMain.c
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+functionInStruct.obj : ../../../include/seqCom.h
+functionInStruct.obj : ../../../include/seq_prim_types.h
+functionInStruct.obj : ../../../include/seq_mask.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+functionInStruct.obj : ../../../include/pvAlarm.h
+functionInStruct.obj : ../../../include/seq_release.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+functionInStruct.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

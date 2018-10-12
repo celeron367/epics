@@ -1,0 +1,82 @@
+record(ai,"PUMP:VOLTS")
+{          
+       field (DTYP,"Soft Channel")        
+} 
+
+record(ai,"PUMP:AMPS")
+{          
+       field (DTYP,"Soft Channel")     
+                      
+} 
+
+record(ai,"PUMP:KW")
+{          
+       field (DTYP,"Soft Channel")     
+            
+} 
+
+record(ai,"PUMP:TEM")
+{          
+       field (DTYP,"Soft Channel")                  
+} 
+
+record(ai,"PUMP:CTL:TEM")
+{          
+       field (DTYP,"Soft Channel")                  
+} 
+
+record(ai,"PUMP:SPEED")
+{          
+       field (DTYP,"Soft Channel")  
+       field (ASLO,"0.001")           
+} 
+###-----------------------------------------
+
+record(ao,"PUMP:OPEN")
+{
+       field (DTYP, "stream")
+       field (OUT, "@pump.proto pump_open PUMP")                                                          
+} 
+
+record(ao,"PUMP:CLOSE")
+{
+       field (DTYP, "stream")
+       field (OUT, "@pump.proto pump_close PUMP")                                                                                                                     
+} 
+
+
+record(ao,"PUMP:GET:PARA")
+{
+       field (DTYP, "stream")
+       field (OUT, "@pump.proto pump_para PUMP")                                                    
+       field (SCAN, "1 second")                                                                    
+} 
+
+record(ao,"PUMP:GET:TEM")
+{
+       field (DTYP, "stream")
+       field (OUT, "@pump.proto pump_tem PUMP")                                                    
+       field (SCAN, "1 second")                                                                    
+} 
+
+record(ao,"PUMP:GET:SPEED")
+{
+       field (DTYP, "stream")
+       field (OUT, "@pump.proto pump_speed PUMP")                                                    
+       field (SCAN, "1 second")                                                                    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+pvAssignStress.obj : ../../../include/seq_snc.h
+pvAssignStress.obj : ../testSupport.h
+pvAssignStress.obj : ../seqMain.c
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+pvAssignStress.obj : ../../../include/seqCom.h
+pvAssignStress.obj : ../../../include/seq_prim_types.h
+pvAssignStress.obj : ../../../include/seq_mask.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+pvAssignStress.obj : ../../../include/pvAlarm.h
+pvAssignStress.obj : ../../../include/seq_release.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+pvAssignStress.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

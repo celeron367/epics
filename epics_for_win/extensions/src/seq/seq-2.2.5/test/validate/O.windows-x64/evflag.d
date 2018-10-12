@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+evflag.obj : ../../../include/seq_snc.h
+evflag.obj : ../testSupport.h
+evflag.obj : ../seqMain.c
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+evflag.obj : ../../../include/seqCom.h
+evflag.obj : ../../../include/seq_prim_types.h
+evflag.obj : ../../../include/seq_mask.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+evflag.obj : ../../../include/pvAlarm.h
+evflag.obj : ../../../include/seq_release.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+evflag.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

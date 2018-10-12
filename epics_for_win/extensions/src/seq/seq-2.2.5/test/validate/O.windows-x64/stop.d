@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl
+
+stop.obj : ../../../include/seq_snc.h
+stop.obj : ../testSupport.h
+stop.obj : ../seqMain.c
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExport.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/shareLib.h
+stop.obj : ../../../include/seqCom.h
+stop.obj : ../../../include/seq_prim_types.h
+stop.obj : ../../../include/seq_mask.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/epicsThread.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/epicsMutex.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/epicsUnitTest.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/registryFunction.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/epicsExit.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/epicsStdio.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/dbStaticLib.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/subRecord.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccess.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/asDbLib.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/iocInit.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/iocsh.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/errlog.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTypes.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTime.h
+stop.obj : ../../../include/pvAlarm.h
+stop.obj : ../../../include/seq_release.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/epicsEvent.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdThread.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/epicsAssert.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/compilerDependencies.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdMutex.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/epicsTempFile.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/dbFldTypes.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/dbBase.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/link.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/errMdef.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/cantProceed.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/ellLib.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/dbDefs.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/caeventmask.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/dbAddr.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/dbLock.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/dbAccessDefs.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/dbLink.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/dbCa.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/dbCommon.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/db_field_log.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/callback.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdTime.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/os/WIN32/osdEvent.h
+stop.obj : E:\epics_for_win\base\base-3.15.5/include/compiler/msvc/compilerSpecific.h
+
+

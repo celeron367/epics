@@ -1,0 +1,58 @@
+record(ai,"HV:$(P)")
+{
+       field (DTYP,"Soft Channel") 
+       field(DESC,"high voltage set of tar")                                                                                                                                  
+}  
+
+record(ao,"HV:$(P):SET")
+{
+       field(DESC,"Set high voltage of tar to device")                                                             
+       field(FLNK,"HV:$(P):SET:CALC")
+       field(DRVH,"$(V_LIMIT)")
+       field(DRVL, "0")
+       field(SCAN,"Passive")                                                                    
+}  
+
+record(ai,"HV:$(P):POL")
+{
+       field (DTYP,"Soft Channel") 
+       field(DESC,"Pol of high voltage of tar")                                                             
+                                                                      
+}  
+
+record(calcout,"HV:$(P):SET:CALC")
+{
+       field(DESC,"Set high voltage of tar")                                                             
+       field(INPA,"HV:$(P):SET NPP")
+       field(CALC,"A/$(V_LIMIT)*65535")
+       field(OUT,"HV:$(P):MBO PP")                                                       
+}  
+
+record(mbbo,"HV:$(P):MBO")
+{
+       field (DESC,"16 bits of tar voltage")  
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto Set_$(P)_Voltage MAIN_CONTROL")                                                    
+       field (SCAN, "Passive")                                                                    
+} 
+#----------------------------------------------------------------------
+
+record(calc,"HV:$(P):V:RBV")
+{
+       field(DESC,"Set high voltage of tar")                                                             
+       field(INPA,"HV:$(P):V:MBI")
+       field(CALC,"A/65535*$(V_LIMIT)")                                                     
+}  
+
+record(calc,"HV:$(P):I:RBV")
+{
+       field(DESC,"Set high voltage of tar")                                                             
+       field(INPA,"HV:$(P):I:MBI")
+       field(CALC,"A/65535*$(I_LIMIT)")                                                     
+}  
+
+
+
+
+
+

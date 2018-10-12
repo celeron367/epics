@@ -1,0 +1,32 @@
+Terminator = "\x0d";
+#ReadTimeout = 200
+#ReplyTimeout = 200
+#PollPeriod= 200
+#MaxInput = 0
+
+
+Pump_Open{
+      out "!C852 1";   
+}
+
+Pump_Stop{
+      out "!C852 0";         
+}
+
+Pump_P{
+      out "?V860";   
+      in "%(PUMP:RAW:VOL)f;%(PUMP:RAW:AMP)f;%(PUMP:RAW:KW)f";
+}
+
+Pump_Temp{
+      out "?V859";   
+      in "%f";
+}
+
+Pump_Speed{
+      out "?V852";   
+      in "%f";
+}
+
+
+

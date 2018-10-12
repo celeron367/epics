@@ -1,0 +1,53 @@
+program voltage
+
+%{
+#include <stdlib.h>
+}%
+float v; assign v to "HV:{unit}:V:RBV"; monitor v;
+float i; assign i to "HV:{unit}:I:RBV"; monitor i;
+float set; assign set to "HV:{unit}:SET"; 
+float Vtar; assign Vtar to "HV:{unit}";monitor Vtar;
+float sw; assign sw to "HV:SWITCH"; monitor sw;
+string msg; assign msg to "SEQ:MSG:HV";
+
+ss ramp_tar{   
+     state init{	 
+	    when(sw==1){
+		}state wait
+		when(sw==0){
+		}state wait_sw
+	 }
+	 state wait_sw{
+	    when(sw==1){
+		}state wait
+		when(Vtar){
+			%%strcpy(pVar->msg,"Hv Switch is off!");
+			pvPut(msg);
+		}state wait_sw 
+	 }
+	 state wait{
+	    when(Vtar){	    
+		}state ramp
+	 }
+	 state ramp{
+	      when(delay(1)){
+		     pvGet(Vtar);
+		     if((Vtar-set)>=200){
+			     set+=200;
+				 pvPut(set);
+			 }		  
+
+			 if((Vtar-set)<=-200){
+			     set+=-300;
+				 pvPut(set);
+			 }		  
+			if((Vtar-set)<300 && (Vtar-set)>-200){
+			     set=Vtar;
+				 pvPut(set);
+			 }	
+		  }state ramp
+		  when(Vtar==set){
+		  }state wait
+	 }
+}
+

@@ -1,0 +1,45 @@
+record(ao,"LED:HV")
+{
+       field(DESC,"")                                                             
+       field(DRVH,"2")
+       field(DRVL, "0")                                                          
+}  
+record(ao,"LED:LASER")
+{
+       field(DESC,"")                                                             
+       field(DRVH,"2")
+       field(DRVL, "0")                                                          
+}  
+record(ao,"LED:VACU")
+{
+       field(DESC,"")                                                             
+       field(DRVH,"3")
+       field(DRVL, "0")                                                          
+}  
+record(ao,"LED:STATUS")
+{
+       field(DESC,"")                                                             
+       field(DRVH,"1")
+       field(DRVL, "0")                                                          
+}  
+record(ao,"LED:CHAM")
+{
+       field(DESC,"")                                                             
+       field(DRVH,"2")
+       field(DRVL, "0")                                                          
+}  
+#------------------------------------------------------------------------------------
+record(mbbo,"LED:SET")
+{
+       field (DESC,"")       
+       field (DTYP, "stream")
+       field (OUT,  "@smms.proto set_led MAIN_CONTROL")      
+       field (SCAN, "Passive")                                                        
+}  
+
+
+
+
+
+
+

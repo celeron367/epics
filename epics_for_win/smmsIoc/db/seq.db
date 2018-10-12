@@ -1,0 +1,17 @@
+record(stringin,"SEQ:MSG:HV")
+{
+       field (DESC,"")                                                   
+       field (SCAN,"Passive")  
+}
+
+record(stringin,"SEQ:MSG:VACC")
+{
+       field (DESC,"")                                                   
+       field (SCAN,"Passive")  
+}
+
+record(stringin,"SEQ:MSG:MOTOR")
+{
+       field (DESC,"")                                                   
+       field (SCAN,"Passive")  
+}
