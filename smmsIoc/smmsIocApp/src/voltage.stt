@@ -1,0 +1,83 @@
+program voltage
+
+%{
+#include <stdlib.h>
+}%
+float v; assign v to "HV:{unit}:V:RBV"; monitor v;
+float i; assign i to "HV:{unit}:I:RBV"; monitor i;
+float set; assign set to "HV:{unit}:SET"; monitor set;
+float Vtar; assign Vtar to "HV:{unit}";monitor Vtar;
+evflag Vset;
+sync Vtar Vset;
+float sw; assign sw to "HV:ON"; monitor sw;
+float flag; assign flag to "HV:{unit}:SWITCH";
+string msg; assign msg to "SEQ:MSG:HV";
+
+ss ramp_tar{   
+     state init{	 
+	    when(sw==1){
+		}state wait
+		when(sw==0){
+		}state wait_sw
+	 }
+	 state wait_sw{
+	    when(sw==1){
+		 flag=1;
+		 pvPut(flag);
+		}state wait
+	 }
+	 state wait{
+	    when(efTestAndClear(Vset)){	    
+		}state ramp
+
+		when(sw==0){	
+		}state ramp_down
+	 }
+	 state ramp{
+	      when(delay(1)){
+		     pvGet(Vtar);
+		     if((Vtar-set)>=200){
+			     set+=200;
+				 pvPut(set);
+			 }		  
+
+			 if((Vtar-set)<=-200){
+			     set+=-300;
+				 pvPut(set);
+			 }		  
+			if((Vtar-set)<300 && (Vtar-set)>-200){
+			     set=Vtar;
+				 pvPut(set);
+			 }	
+		  }state ramp
+
+		  when(Vtar==set){
+		  }state wait
+
+		  when(sw==0){
+		  }state ramp_down
+	 }
+	 state ramp_down{
+	      when(delay(1)){
+		     pvGet(set);
+				 if(set>=200){
+					 set=set-200;
+					 pvPut(set);
+					}
+				if(set<200){
+					set=0;
+					pvPut(set);
+				   }
+			 }state ramp_down	 
+			  
+	     when(set==0){
+		 flag=0;
+		 pvPut(flag);
+		 Vtar=0;
+		 pvPut(Vtar);
+		 set=0;
+		 pvPut(set);
+		 }state wait_sw	 
+	 }
+}
+

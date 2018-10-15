@@ -1,0 +1,64 @@
+program motor
+%{
+#include "stdlib.h"
+#include "math.h"
+}%
+
+float x; assign x to "MOTOR:SET:X";
+float y; assign y to "MOTOR:SET:Y";
+float x_rbv; assign x_rbv to "MOTOR:X:RBV"; monitor x_rbv;
+float y_rbv; assign y_rbv to "MOTOR:Y:RBV"; monitor y_rbv;
+
+float move; assign move to "MOTOR:MOVE";
+float status; assign status to "MOTOR:STATUS";
+
+float go; assign go to "CMD:GO"; monitor go;
+evflag flag_go;
+sync go flag_go;
+
+float stopFlag=0;
+
+%{
+static void isReached(float x,float y,float xrb,float yrb,float *flag)
+   {
+      if (fabs(x-xrb)<0.02 && fabs(y-yrb)<0.02 )
+	  {
+	      *flag=1;
+	  }
+	  else{
+	      *flag=0;
+	  }       
+   }
+}%
+
+ss ramp_tar{   
+      state init{
+	      when(){
+		  }state stop
+       }
+
+	  state stop{
+	    when(efTestAndClear(flag_go)&& go==1 ){
+		      move=1;
+			  pvPut(move);
+			  status=1;
+			  pvPut(status);
+			  stopFlag=0;
+		}state moveing
+	  }
+	  state moveing{
+	       when (stopFlag==1){
+		        status=0;
+				pvPut(status);	
+				go=0;
+				pvPut(go);	   
+		   } state stop
+		   when (delay(0.5)){
+		        pvGet(x);pvGet(y);pvGet(x_rbv);pvGet(y_rbv);
+		        isReached(pVar->x,pVar->y,pVar->x_rbv,pVar->y_rbv,&(pVar->stopFlag));
+		   }state moveing
+	  }
+}
+
+
+

@@ -1,0 +1,129 @@
+program chamber
+
+float chamberIn; assign chamberIn to "CHAM:IN"; monitor chamberIn;
+float chamberOut; assign chamberOut to "CHAM:OUT"; monitor chamberOut;
+float x; assign x to "MOTOR:SET:X";
+float y; assign y to "MOTOR:SET:Y";
+float go; assign go to "MOTOR:MOVE";
+float x_rbv; assign x_rbv to "MOTOR:X:RBV"; monitor x_rbv;
+float y_rbv; assign y_rbv to "MOTOR:Y:RBV"; monitor y_rbv;
+float go_py; assign go_py to "MOTOR:MOVE:PY";
+float go_ny; assign go_ny to "MOTOR:MOVE:NY";
+float lim_yb; assign lim_yb to "SW:LIM:BITS.B2"; monitor lim_yb;
+float valve1; assign valve1 to "VALVE:TAR:SWITCH";
+float valve2; assign valve2 to "VALVE:FORWARD:SWITCH";
+float gate; assign gate to "SW:LIM:BITS.B5"; monitor gate;
+float motor_cal; assign motor_cal to "MOTOR:CAL";
+float vaccumLow; assign vaccumLow to "GAU:1:RBV"; monitor vaccumLow;
+float lim_yt; assign lim_yt to "SW:LIM:BITS.B4"; monitor lim_yt;
+float st; assign st to "PLAT:STATE";
+
+float stop; assign stop to "MOTOR:STOP:FORCE"; monitor stop;
+float isZeroed; assign isZeroed to "MOTOR:IS:CAL";
+
+ss chamberIO{   
+     state init{	 
+	    when(){
+		}state TargetInside
+	 }
+
+	 state TargetInside{
+	     when(chamberOut==1){
+		     x=29.5;
+			 pvPut(x);
+			 y=1;
+			 pvPut(y);
+			 go=1;
+			 pvPut(go);
+			 st=1;
+			 pvPut(st);
+		 }state stage1	 
+	 }
+	 state stage1{
+	    when(fabs(x_rbv-29.5)<0.02 && fabs(y_rbv-1)<0.02){
+		   go_py=1;
+		   pvPut(go_py);	
+		}state stage2
+
+		when(stop==1){
+		}state force_stop
+	 }
+	 state stage2{
+	    when(lim_yb==0){
+		    valve2=0;
+			pvPut(valve2);
+			}state stage2w	
+			 
+		when(stop==1){
+		}state force_stop   	
+	 }
+	 state stage2w{
+	   when(delay(1)){
+		    valve1=1;
+			pvPut(valve1);
+			st=2;
+			pvPut(st);
+	   }state TargetOutside
+	 }
+
+	 state TargetOutside{
+	    when(lim_yb==0 && chamberIn==1 && gate==1 ){		
+		    valve1=0;
+			pvPut(valve1);	
+			st=3;
+			pvPut(st);
+		}state stage3d
+	 }
+
+	 state stage3d{
+	    when(delay(1)){
+	        valve2=1;
+			pvPut(valve2);		
+		}state stage3 
+	 }
+
+	 state stage3{ 
+	   when(vaccumLow<50){
+	       go_ny=1;
+		   pvPut(go_ny);
+	   }state stage4
+	 }
+
+	 state stage4{
+	   when(lim_yt==0){
+	       motor_cal=1;
+		   pvPut(motor_cal);
+	   }state stage5
+
+	   when(stop==1){
+		}state force_stop
+	 }
+
+	 state stage5{
+	   when(x_rbv==0 && y_rbv==0){
+	        st=0;
+			pvPut(st);
+			chamberOut=0;
+			pvPut(chamberOut,SYNC);
+			chamberIn=0;
+			pvPut(chamberIn,SYNC);
+	   }state TargetInside
+
+	   when(stop==1){
+		}state force_stop
+	 }
+
+	 state force_stop{
+	    entry{
+		   st=9;
+		   pvPut(st);
+		   isZeroed=0;
+		   pvPut(isZeroed);
+		}
+	    when(x_rbv==0 && y_rbv==0){	
+		   st=0;
+		   pvPut(st);    
+		}state TargetInside	 
+	 }  
+}
+

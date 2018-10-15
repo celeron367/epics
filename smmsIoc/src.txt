@@ -1,0 +1,53 @@
+epicsEnvSet ("STREAM_PROTOCOL_PATH", "c:\ioc\db")
+
+dbLoadDatabase "c:\ioc\dbd\smmsIoc.dbd"
+smmsIoc_registerRecordDeviceDriver pdbbase
+
+drvAsynSerialPortConfigure "MAIN_CONTROL","COM10"
+#asynOctetSetInputEos "MAIN_CONTROL",0,"\r\n"
+#asynOctetSetOutputEos "MAIN_CONTROL",0,"\r\n"
+asynSetOption ("MAIN_CONTROL",0,"baud","115200")
+asynSetOption ("MAIN_CONTROL",0,"bits","8")
+asynSetOption ("MAIN_CONTROL",0,"parity","none")
+asynSetOption ("MAIN_CONTROL",0,"stop","1")
+
+drvAsynSerialPortConfigure "LASER","COM12"
+asynSetOption ("LASER",0,"baud","9600")
+asynSetOption ("LASER",0,"bits","8")
+asynSetOption ("LASER",0,"parity","none")
+asynSetOption ("LASER",0,"stop","1")
+
+
+drvAsynSerialPortConfigure "PUMP","COM9"
+asynSetOption ("PUMP",0,"baud","9600")
+asynSetOption ("PUMP",0,"bits","8")
+asynSetOption ("PUMP",0,"parity","none")
+asynSetOption ("PUMP",0,"stop","1")
+
+dbLoadRecords "c:\ioc\db\hv-all.db"
+dbLoadRecords "c:\ioc\db\hv.db", "P=TAR,V_LIMIT=20000,I_LIMIT=0.5"
+dbLoadRecords "c:\ioc\db\hv.db", "P=PUL,V_LIMIT=2000,I_LIMIT=5"
+dbLoadRecords "c:\ioc\db\hv.db", "P=LEN,V_LIMIT=10000,I_LIMIT=0.1"
+dbLoadRecords "c:\ioc\db\hv.db", "P=MCP,V_LIMIT=2000,I_LIMIT=5"
+
+dbLoadRecords "c:\ioc\db\gau.db"
+dbLoadRecords "c:\ioc\db\PulseAndDelay.db"
+dbLoadRecords "c:\ioc\db\ValvesAndPowersupply.db"
+dbLoadRecords "c:\ioc\db\motor.db"
+dbLoadRecords "c:\ioc\db\rbvs.db"
+
+dbLoadRecords "c:\ioc\db\laser.db"
+
+dbLoadRecords "c:\ioc\db\pump.db"
+dbLoadRecords "c:\ioc\db\led.db"
+dbLoadRecords "c:\ioc\db\seq.db"
+
+iocInit
+
+seq gauge
+seq chamber
+seq motor
+seq voltage,unit=TAR
+seq voltage,unit=PUL
+seq voltage,unit=MCP
+seq voltage,unit=LEN

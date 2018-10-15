@@ -1,0 +1,125 @@
+Terminator = "\xcc\xdd";
+#ReadTimeout = 200
+ReplyTimeout = 450;
+#PollPeriod= 200
+#MaxInput = 0
+
+#-------------------------------------------High voltage--------------------------------------
+
+Set_TAR_Voltage {
+      out "\x5a\x33\x01\x00%(HV:TAR:SWITCH)r%.2r%(HV:TAR:POL)r\x00\x00\x00\x00";   
+}
+
+Set_PUL_Voltage {
+      out "\x5a\x33\x02\x00%(HV:PUL:SWITCH)r%.2r%(HV:PUL:POL)r\x00\x00\x00\x00";   
+}
+
+Set_LEN_Voltage {
+      out "\x5a\x33\x03\x00%(HV:LEN:SWITCH)r%.2r%(HV:LEN:POL)r\x00\x00\x00\x00";   
+}
+
+Set_MCP_Voltage {
+      out "\x5a\x33\x04\x00%(HV:MCP:SWITCH)r%.2r%(HV:MCP:POL)r\x00\x00\x00\x00";   
+}
+
+Hv_Power_On{
+      out "\x5a\x33\x52\x00%r\x00\x00\x00\x00\x00\x00\x00"; 
+}
+
+#-------------------------------------------Gauges---------------------------------------------
+
+GAU_LO_OPEN {
+      out "\x5a\x33\x21\x00%r\x00\x00\x00\x00\x00\x00\x00";
+}
+
+GAU_HI_OPEN {
+      out "\x5a\x33\x22\x00%r\x00\x00\x00\x00\x00\x00\x00";
+}
+
+#------------------------------------------Pulse and Delay----------------------------------------------
+
+Pul_Delay {
+      out "\x5a\x33\x31\x00\x00%r\x00\x00\x00\x00\x00\x00";
+}
+Pul_Switch {
+      out "\x5a\x33\x31\x01\x00%r\x00\x00\x00\x00\x00\x00";
+}
+
+#-----------------------------------------valves----------------------------------------------------------
+
+Value_Forward{
+      out "\x5a\x33\x41\x00%r\x00\x00\x00\x00\x00\x00\x00";
+}
+
+Value_Tar{
+      out "\x5a\x33\x42\x00%r\x00\x00\x00\x00\x00\x00\x00";
+}
+
+Value_Pre{
+      out "\x5a\x33\x43\x00%r\x00\x00\x00\x00\x00\x00\x00";
+}
+
+Value_Amp{
+      out "\x5a\x33\x44\x00%r\x00\x00\x00\x00\x00\x00\x00";
+}
+
+#-----------------------------------------powers-------------------------------------------------------------
+
+PS_Pump{
+      out "\x5a\x33\x51\x00%r\x00\x00\x00\x00\x00\x00\x00";
+}
+
+PS_HV{
+      out "\x5a\x33\x52\x00%r\x00\x00\x00\x00\x00\x00\xcc";
+}
+
+PS_Backup{
+      out "\x5a\x33\x53\x00%r\x00\x00\x00\x00\x00\x00\x00";
+}
+
+#-----------------------------------------motor--------------------------------------------------------------
+
+motor_move{
+      out "\x5a\x33\x60\x00\x01%(MOTOR:SET:X:MBO).2r%(MOTOR:SET:Y:MBO).2r\x00\x00\x00";
+}
+
+motor_stop{
+      out "\x5a\x33\x60\x00\x00%(MOTOR:SET:X:MBO).2r%(MOTOR:SET:Y:MBO).2r\x00\x00\x00";
+}
+
+motor_move_x_p{
+      out "\x5a\x33\x60\x01\x01\x00\x00\x00\x00\x00\x00\x00";
+}
+motor_move_x_n{
+      out "\x5a\x33\x60\x01\x02\x00\x00\x00\x00\x00\x00\x00";
+}
+motor_move_y_p{
+      out "\x5a\x33\x60\x01\x00\x01\x00\x00\x00\x00\x00\x00";
+}
+motor_move_y_n{
+      out "\x5a\x33\x60\x01\x00\x02\x00\x00\x00\x00\x00\x00";
+}
+
+motor_force_stop{
+      out "\x5a\x33\x60\x02\x01\x00\x00\x00\x00\x00\x00\x00";
+}
+
+motor_cal{
+      out "\x5a\x33\x60\x02\x00\x01\x00\x00\x00\x00\x00\x00";
+}
+
+motor_set_parameter{
+      out "\x5a\x33\x60\x03\x01%(MOTOR:LAST:X).2r%(MOTOR:LAST:Y).2r\x00\x00\x00";
+}
+
+#-------------------------------------Status------------------------------------------------
+
+get_status{
+      out "\x5a\x33\xf0\x00\x00\x00\x00\x00\x00\x00\x00\x00";   
+      in  "\x5a\x33%(HV:TAR:V:MBI)02r%(HV:TAR:I:MBI)02r%(HV:PUL:V:MBI)02r%(HV:PUL:I:MBI)02r%(HV:LEN:V:MBI)02r%(HV:LEN:I:MBI)02r%(HV:MCP:V:MBI)02r%(HV:MCP:I:MBI)02r%(MOTOR:X:MBI)02r%(MOTOR:Y:MBI)02r%(GAU:1:MBI)02r%(GAU:2:MBI)02r%(MOTOR:TEM1:MBI)0r%(MOTOR:TEM2:MBI)0r%(PS:TEM:MBI)0r%(TOF:TEM:MBI)0r%(SW:LIM:MBI)0r\x00";
+}
+
+set_led{
+     out "\x5a\x33\x70\x00%(LED:HV)r%(LED:LASER)r%(LED:VACU)r%(LED:STATUS)r%(LED:CHAM)r";
+}
+

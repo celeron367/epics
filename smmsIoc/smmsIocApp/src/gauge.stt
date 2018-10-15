@@ -1,0 +1,36 @@
+program gauge
+
+float g1; assign g1 to "GAU:1:RBV"; monitor g1;
+float g1Swt; assign g1Swt to "GAU:1:SWITCH";
+float g2; assign g2 to "GAU:2:RBV"; monitor g2;
+float g2Swt; assign g2Swt to "GAU:2:SWITCH"; float hv_switch; assign hv_switch to "HV:SWITCH";
+float pump_speed; assign pump_speed to "PUMP:SPEED"; monitor pump_speed;
+
+
+ss checkGauge{
+    state init {
+		when () {
+		g1Swt=1;
+		g2Swt=0;
+		pvPut(g1Swt);
+		pvPut(g2Swt);
+		} state low
+    }
+    state low {
+		when (g1<5 && pump_speed>0.3 ) {
+			printf("Open high Gauge!");
+			g2Swt=1;
+			pvPut(g2Swt);
+			} state high
+    }
+    state high {
+		when (g1 > 1) {	    
+			printf("Close High Gauge!");
+			g2Swt=0;
+			pvPut(g2Swt);
+			} state low
+    }
+}
+
+
+
